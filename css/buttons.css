@@ -1,0 +1,38 @@
+.buttons {
+border: transparent;
+inline-size: 60px;
+block-size: 32px;
+background-color: transparent;
+background-position: center;
+cursor: pointer;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.buttons:active {
+    transform: scale(.9);
+}
+
+#play 
+{
+background-image: url(./button/play.png);
+filter: invert(100%) sepia(5%) saturate(9%) hue-rotate(223deg) brightness(113%) contrast(98%);
+}
+
+#pause
+{
+background-image: url(./button/pause.png);
+filter: invert(100%) sepia(5%) saturate(9%) hue-rotate(223deg) brightness(113%) contrast(98%);
+}
+
+#backward
+{
+background-image: url(./button/backward-arrow.png);
+filter: invert(100%) sepia(5%) saturate(9%) hue-rotate(223deg) brightness(113%) contrast(98%);
+}
+
+#forward 
+{
+background-image: url(./button/forward.png);
+filter: invert(100%) sepia(5%) saturate(9%) hue-rotate(223deg) brightness(113%) contrast(98%);
+}
